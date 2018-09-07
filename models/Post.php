@@ -19,6 +19,7 @@ class Post {
 
 	}
 
+	// Retrieve and show all posts in DB
 	public function read() {
 
 		// Query
@@ -32,6 +33,7 @@ class Post {
 
 	}
 
+	// Retrieve single post from DB
 	public function single($id) {
 
 		// Query
@@ -47,6 +49,7 @@ class Post {
 
 	}
 
+	// Create new post
 	public function create() {
 
 		// Query
@@ -65,6 +68,7 @@ class Post {
 
 	}
 
+	// Update post
 	public function update() {
 
 		// Query
